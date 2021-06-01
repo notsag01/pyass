@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* HEADER */
+.alc{
+    font-size: 0.75rem;
+    color:blue;
+    padding: .5rem;
+    margin: .5rem;
+}
+i span{
+    color: red;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+a.contacto{
+    font-size: .75rem;
+    color: blue;
+    padding: .4rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+/* SECCION NAV */
+.navRow{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/200/561/non_2x/christmas-background-of-bokeh-lights-and-stars-vector.jpg);
+    box-sizing: border-box;
+}
+.logo{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.lupa{
+    padding: 1rem;
+    margin: 1rem;
+}
+.form-control{
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+}
+/* --------------------------------- */
+section{
+    background-image: url(https://i.pinimg.com/originals/e7/27/ad/e727ad20389df6fab853fc123146161d.jpg);
+    background-attachment: fixed;
+    margin-top: 4rem;
+}
+.marRow{
+    margin: 1.5rem 0 1.5rem 0;
+    height: 32vh;
+}
+h2{
+    text-align: center;
+}
+.block-multiuse-img-full-with{
+    width: 100%;
+
+}
+.block-multiuse-img-full-with img{
+    max-width: 100%;
+    position: relative;
+    transform: scale(10.13228);
+    top: 12.9134px
+}
+.magen{
+    position: relative;
+    transform: scale(2, 0.5);
+}
+.fotoProd{
+    max-width: 100%;
+}
+/* ----------------------------------------- */
+.cuerpo{
+    height: 2rem;
+}
+.cuerpo a{
+     text-decoration: none;
+     color: black;
+}
+.lista{
+    display: inline-block;
+}
+
+.resultados{
+    margin: 3rem;
+    padding: 3rem;
+}
