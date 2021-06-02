@@ -24,6 +24,11 @@ a.contacto{
     text-decoration: none;
 }
 /* SECCION NAV */
+@media only screen and (max-width:768px){
+.navegador{
+    position: fixed;
+}
+}
 .navRow{
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/200/561/non_2x/christmas-background-of-bokeh-lights-and-stars-vector.jpg);
     box-sizing: border-box;
@@ -32,8 +37,8 @@ a.contacto{
     margin-bottom: 1rem;
 }
 .logo{
+    height: 100px;
     border-radius: 50%;
-    border: 2px solid black;
 }
 .lupa{
     padding: 1rem;
@@ -48,7 +53,7 @@ a.contacto{
 section{
     background-image: url(https://i.pinimg.com/originals/e7/27/ad/e727ad20389df6fab853fc123146161d.jpg);
     background-attachment: fixed;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 /* ---LOS ROWS DEL SECTION---*/
 .marRow{
@@ -64,6 +69,7 @@ section{
 .contTarj{
     box-shadow: rgb(250, 201, 111) 5px 2px 5px 0;
     margin: 2rem;
+    border: orange 0.05px solid;
 }
 .contTarj img{
     border-radius: 50%;
@@ -95,20 +101,32 @@ section{
     border-radius: 5px;
     margin: .4rem auto 0.4rem auto;
 }
-h2{
-    text-align: center;
-}
+
 .contTarj img{
     border-radius: 50%;
 }
 
-/* ----------------------------------------- */
+/* --NAVEGADOR LATERAL------------- */
 
 .lista{
     display: inline-block;
+    overflow: hidden;
+}
+.lista h2{
+    text-align: center;
+    height: 2.5rem;
+    margin: 1rem;
+}
+.lista li{
+    text-align: center;
 }
 /* -MOSTRAR MAS RESULTADOS */
 .resultados{
     margin: 3rem;
     padding: 3rem;
+}
+/* ----FOOTER----------- */
+footer h6{
+    height: 2rem;
+    text-align: center;
 }
