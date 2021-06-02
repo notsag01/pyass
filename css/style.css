@@ -52,39 +52,62 @@ section{
 }
 /* ---LOS ROWS DEL SECTION---*/
 .marRow{
-    max-width: 100%;
-     
+    max-width: 100%; 
 }
-h2{
-    text-align: center;
-}
-.block-multiuse-img-full-with{
-    width: 100%;
-
-}
-.block-multiuse-img-full-with img{
-    max-width: 100%;
-    position: relative;
-    transform: scale(10.13228);
-    top: 12.9134px
-}
-.magen{
-    position: relative;
-    transform: scale(2, 0.5);
-}
-/* ----------------------------------------- */
 /* ---EL CUERPO DE LA TARJETA DONDE SE ENCUNTA LA INFORMCION DEL PRODUCTO--- */
 .cuerpo{
-    height: 50%;
+    height: 10rem;
+}
+
+
+/* DIV TARJETAS */
+.contTarj{
+    box-shadow: rgb(250, 201, 111) 5px 2px 5px 0;
+    margin: 2rem;
+}
+.contTarj img{
+    border-radius: 50%;
+}
+.contTarj hr{
+    width: 98%;
+    color: rgb(240, 146, 4);
+    height: 3px !important;
+    box-shadow: orange 50px 2px 5px 0;
+}
+.descripcion{
+    width: 96%;
+    margin: .5rem auto .5rem auto;
+    height: 3rem;
+}
+.cuerpo span{
+    display: block;
+    width: 98%;
+    margin: .5rem auto .5rem auto;
+    font-weight: 1000;
 }
 .cuerpo a{
      text-decoration: none;
      color: black;
 }
+
+.contTarj button{
+    background-color: rgb(240, 211, 82);
+    border-radius: 5px;
+    margin: .4rem auto 0.4rem auto;
+}
+h2{
+    text-align: center;
+}
+.contTarj img{
+    border-radius: 50%;
+}
+
+/* ----------------------------------------- */
+
 .lista{
     display: inline-block;
 }
-
+/* -MOSTRAR MAS RESULTADOS */
 .resultados{
     margin: 3rem;
     padding: 3rem;
