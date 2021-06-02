@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
     
 }
 /* HEADER */
@@ -49,9 +50,12 @@ section{
     background-attachment: fixed;
     margin-top: 4rem;
 }
+/* ---LOS ROWS DEL SECTION---*/
 .marRow{
-    margin: 1.5rem 0 1.5rem 0;
     
+    max-width: 100%;
+    height: 50vh;
+   
 }
 h2{
     text-align: center;
@@ -71,8 +75,9 @@ h2{
     transform: scale(2, 0.5);
 }
 /* ----------------------------------------- */
+/* ---EL CUERPO DE LA TARJETA DONDE SE ENCUNTA LA INFORMCION DEL PRODUCTO--- */
 .cuerpo{
-    height: 2rem;
+    height: 50%;
 }
 .cuerpo a{
      text-decoration: none;
