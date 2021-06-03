@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    
 }
 /* HEADER */
 .alc{
@@ -33,11 +32,16 @@ a.contacto{
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/200/561/non_2x/christmas-background-of-bokeh-lights-and-stars-vector.jpg);
     box-sizing: border-box;
 }
+@media only screen and (min-width:768px){
+    .navRow{
+        /* -----------LA IDEA ES PONERLE ALTURA AL DIV PARA RESALTAR EL LOGO--------------------------------------------------------- */
+    }
+}
 .columnas{
     margin-bottom: 1rem;
 }
 .logo{
-    height: 100px;
+    height: 200px;
     border-radius: 50%;
 }
 .lupa{
@@ -51,9 +55,14 @@ a.contacto{
 }
 /* --------------------------------- */
 section{
-    background-image: url(https://i.pinimg.com/originals/e7/27/ad/e727ad20389df6fab853fc123146161d.jpg);
+    background-color: #fcbfc9;
     background-attachment: fixed;
-    margin-top: 6rem;
+    margin-top: 12rem;
+}
+@media only screen and (min-width:768px){
+    section{
+        margin-top: 3rem;
+    }
 }
 /* ---LOS ROWS DEL SECTION---*/
 .marRow{
@@ -72,7 +81,7 @@ section{
     border: orange 0.05px solid;
 }
 .contTarj img{
-    border-radius: 50%;
+    
 }
 .contTarj hr{
     width: 98%;
@@ -102,9 +111,7 @@ section{
     margin: .4rem auto 0.4rem auto;
 }
 
-.contTarj img{
-    border-radius: 50%;
-}
+
 
 /* --NAVEGADOR LATERAL------------- */
 
@@ -124,9 +131,11 @@ section{
 .resultados{
     margin: 3rem;
     padding: 3rem;
+    background-color: #fcbfc9;
 }
 /* ----FOOTER----------- */
 footer h6{
     height: 2rem;
     text-align: center;
+    background-color: #fcbfc9;
 }
