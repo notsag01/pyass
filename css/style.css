@@ -70,7 +70,12 @@ section{
 }
 /* ---EL CUERPO DE LA TARJETA DONDE SE ENCUNTA LA INFORMCION DEL PRODUCTO--- */
 .cuerpo{
-    height: 10rem;
+    height: 12rem;
+}
+@media only screen and (max-width:768px){
+    .cuerpo{
+        height: 12rem;
+    }
 }
 
 
@@ -92,9 +97,11 @@ section{
 .descripcion{
     width: 96%;
     margin: .5rem auto .5rem auto;
-    height: 3rem;
+    height: 4rem;
 }
 .cuerpo span{
+    height: 3rem;
+    font-size: 2rem;
     display: block;
     width: 98%;
     margin: .5rem auto .5rem auto;
@@ -104,11 +111,26 @@ section{
      text-decoration: none;
      color: black;
 }
-
-.contTarj button{
+/* BOTONES DE COMPRA Y VISTA */
+.botones{
+    margin: 0.5rem auto 0.5rem auto;   
+}
+.comprar{
     background-color: rgb(240, 211, 82);
     border-radius: 5px;
-    margin: .4rem auto 0.4rem auto;
+    height: 2rem ;
+    width: 75%;
+    font-weight: bolder;
+    
+    
+}
+.ver{
+    background-color: rgb(240, 211, 82);
+    border-radius: 5px;
+    height: 2rem ;
+    width: 75%;
+    font-weight: bolder;
+    
 }
 
 
@@ -116,21 +138,21 @@ section{
 /* --NAVEGADOR LATERAL------------- */
 
 .lista{
-    display: inline-block;
     overflow: hidden;
 }
 .lista h2{
-    text-align: center;
+    text-align: right;
     height: 2.5rem;
     margin: 1rem;
 }
 .lista li{
-    text-align: center;
+    text-align: right;
+    width: 60%;
+    margin-left: 30%;
 }
 /* -MOSTRAR MAS RESULTADOS */
 .resultados{
-    margin: 3rem;
-    padding: 3rem;
+        
     background-color: #fcbfc9;
 }
 /* ----FOOTER----------- */
