@@ -67,32 +67,33 @@ section{
 /* ---LOS ROWS DEL SECTION---*/
 .marRow{
     max-width: 100%; 
+    margin-left: 0px 0px;
+    margin-right: 0px 0px;
 }
 /* ---EL CUERPO DE LA TARJETA DONDE SE ENCUNTA LA INFORMCION DEL PRODUCTO--- */
+.principal{
+    padding: 0px 0px;
+    overflow: hidden;
+}
 .cuerpo{
     height: 12rem;
 }
-@media only screen and (max-width:768px){
-    .cuerpo{
-        height: 12rem;
-    }
-}
-
-
 /* DIV TARJETAS */
 .contTarj{
-    box-shadow: rgb(250, 201, 111) 5px 2px 5px 0;
-    margin: 2rem;
-    border: orange 0.05px solid;
+    box-shadow: white ;
+    border: black 0.05px solid;
+    border-radius: 5%;
 }
 .contTarj img{
+    border-radius: 50%;
+    box-shadow: gray 1px 1px 5px 0px;
     
 }
 .contTarj hr{
     width: 98%;
-    color: rgb(240, 146, 4);
+    color: black;
     height: 3px !important;
-    box-shadow: orange 50px 2px 5px 0;
+    box-shadow: gray;
 }
 .descripcion{
     width: 96%;
@@ -114,23 +115,23 @@ section{
 /* BOTONES DE COMPRA Y VISTA */
 .botones{
     margin: 0.5rem auto 0.5rem auto;   
+    display: flex;
+    justify-content: center;
 }
 .comprar{
-    background-color: rgb(240, 211, 82);
+    background-color: white;
     border-radius: 5px;
     height: 2rem ;
-    width: 75%;
+    width: 8rem;
     font-weight: bolder;
-    
-    
 }
 .ver{
-    background-color: rgb(240, 211, 82);
+    background-color: black;
+    color: white;
     border-radius: 5px;
     height: 2rem ;
-    width: 75%;
+    width: 4rem;
     font-weight: bolder;
-    
 }
 
 
