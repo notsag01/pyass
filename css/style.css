@@ -29,7 +29,7 @@ a.contacto{
 }
 }
 .navRow{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/000/200/561/non_2x/christmas-background-of-bokeh-lights-and-stars-vector.jpg);
+    background-image: linear-gradient( #fcbfc9,  white);
     box-sizing: border-box;
 }
 @media only screen and (min-width:768px){
@@ -55,7 +55,7 @@ a.contacto{
 }
 /* --------------------------------- */
 section{
-    background-color: #fcbfc9;
+    background-image: linear-gradient( #fcbfc9,  white);
     background-attachment: fixed;
     margin-top: 12rem;
 }
@@ -80,8 +80,8 @@ section{
 }
 /* DIV TARJETAS */
 .contTarj{
-    box-shadow: white ;
-    border: black 0.05px solid;
+    box-shadow: #fcbfc9 ;
+    border: white 0.05px solid;
     border-radius: 5%;
 }
 .contTarj img{
@@ -152,13 +152,12 @@ section{
     margin-left: 30%;
 }
 /* -MOSTRAR MAS RESULTADOS */
-.resultados{
-        
-    background-color: #fcbfc9;
+.resultados{    
+    background-image: linear-gradient( #fcbfc9,  white);
 }
 /* ----FOOTER----------- */
 footer h6{
     height: 2rem;
     text-align: center;
-    background-color: #fcbfc9;
+    background-image: linear-gradient( #fcbfc9,  white);
 }
