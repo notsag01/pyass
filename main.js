@@ -89,25 +89,3 @@
 
 
 
-/* ------------------------   H1   ---------------------------------------------- */    
-const titulo=document.createElement("h1")
-titulo.innerHTML="PRODUCTOS A LA VENTA"
-
-document.body.appendChild(titulo)
-
-/* ------------------------  AGREGO PRODUCTOS A AL VENTA AL HTML   -------------------- */
-console.log(productosALaVenta)
-
-for(const producto of productosALaVenta){
-    const div=document.createElement("div")
-
-    div.innerHTML=`<h2>${producto.nombre}</h2>
-                    <h4>$${producto.costo} </h4>
-                    <button id=${producto.id} > COMPRAR </button>
-                    <hr>
-                    `
-    document.body.appendChild(div)                    
-}
-
-/* -------------------------CARRITO DE COMPRAS --------------------------------- */
-   
