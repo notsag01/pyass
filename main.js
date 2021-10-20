@@ -110,19 +110,4 @@ for(const producto of productosALaVenta){
 }
 
 /* -------------------------CARRITO DE COMPRAS --------------------------------- */
-console.log(carrito)
-
-const carritoDeCompras= document.createElement("h1")
-carritoDeCompras.innerHTML="CARRITO DE COMPRAS"
-document.body.appendChild(carritoDeCompras)
-
-for(const producto of carrito){
-    const div=document.createElement("div")
-
-    div.innerHTML=`<h2>${producto.nombre}</h2>
-                    <h3> $${producto.costo} </h3>
-                    <button id=${producto.id} > COMPRAR </button>
-                    <hr>
-                    `
-    document.body.appendChild(div)     
-}
+   
