@@ -87,5 +87,49 @@
     localStorage.setItem("carrito de compras", JSON.stringify(carrito))
 
 
+    /* -------------------------------------------------- */
+
+
+    
+    
+    
+    const productosDelBody=document.getElementById("productos")
+    const fragmento=document.createDocumentFragment()
+
+    
+    productosALaVenta.forEach((producto)=>{
+
+    const div=document.createElement("div")
+    div.id="col-6 col-md-4 columnas"
+
+    const divTarjetas=document.createElement("div")
+    divTarjetas.id="contTarj"
+
+    div.appendChild(divTarjetas)
+
+    const divProducto=document.createElement("div")
+    divProducto.className="cuerpo text-center"
+    divTarjetas.appendChild(divProducto)
+
+    divDescripcion=document.createElement("div")
+    divDescripcion.id="descripcion"
+    divProducto.appendChild(divDescripcion)
+    divProducto.innerHTML=`<a href="">${producto.nombre}</a>`
+
+    divPrecio=document.createElement("div")
+    divPrecio.innerHTML=`<spam> ${producto.costo} </spam>`
+    divProducto.appendChild(divPrecio)
+
+    fragmento.appendChild(div)    
+});                    
+
+
+
+
+
+
+   
+
+
 
 
