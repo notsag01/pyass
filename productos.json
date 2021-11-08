@@ -1,0 +1,200 @@
+ [
+    {
+      "id": 1,
+      "nombre": "ANILLO CARACOL",
+      "costo": 1000,
+      "precio": 1500,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 2,
+      "nombre": "ANILLO ARGENTINA",
+      "costo": 1100,
+      "precio": 1650,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 3,
+      "nombre": "ANILLO CON PIEDRAS",
+      "costo": 1200,
+      "precio": 1800,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 4,
+      "nombre": "ANILLO CON RULO",
+      "costo": 1000,
+      "precio": 1500,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 5,
+      "nombre": "ANILLO INFINITO",
+      "costo": 1100,
+      "precio": 1650,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 6,
+      "nombre": "ANILLO PIEDRA ROSA",
+      "costo": 1200,
+      "precio": 1800,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 7,
+      "nombre": "ANILLO ROCKERO",
+      "costo": 1000,
+      "precio": 1500,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 8,
+      "nombre": "ANILLO SELLO",
+      "costo": 1100,
+      "precio": 1650,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "PLATA"
+    },
+    {
+      "id": 9,
+      "nombre": "ANILLO CON BRILLANTES",
+      "costo": 500,
+      "precio": 750,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 10,
+      "nombre": "ANILLO CORAZON",
+      "costo": 600,
+      "precio": 900,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 11,
+      "nombre": "ANILLO AGUA MARINA",
+      "costo": 700,
+      "precio": 1050,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 12,
+      "nombre": "ANILLO BUHO",
+      "costo": 500,
+      "precio": 750,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 13,
+      "nombre": "ANILLO CORAZONES COLORES",
+      "costo": 600,
+      "precio": 900,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 14,
+      "nombre": "ANILLO DOBLE V",
+      "costo": 700,
+      "precio": 1050,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 15,
+      "nombre": "ANILLO FAMILIA",
+      "costo": 500,
+      "precio": 750,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 16,
+      "nombre": "ANILLO SELLO",
+      "costo": 600,
+      "precio": 900,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 17,
+      "nombre": "ANILLO TRIPLE V",
+      "costo": 700,
+      "precio": 1050,
+      "stock": 10,
+      "cat.1": "ANILLO",
+      "cat.2": "ACERO"
+    },
+    {
+      "id": 18,
+      "nombre": "ALIANZAS 18K",
+      "costo": 5000,
+      "precio": 7500,
+      "stock": 1,
+      "cat.1": "ANILLO",
+      "cat.2": "ORO"
+    },
+    {
+      "id": 19,
+      "nombre": "ANILLO CALADO",
+      "costo": 6000,
+      "precio": 9000,
+      "stock": 1,
+      "cat.1": "ANILLO",
+      "cat.2": "ORO"
+    },
+    {
+      "id": 20,
+      "nombre": "ANILLO CORAZON",
+      "costo": 6500,
+      "precio": 9750,
+      "stock": 1,
+      "cat.1": "ANILLO",
+      "cat.2": "ORO"
+    },
+    {
+      "id": 21,
+      "nombre": "ANILLO MEDIO SIN FIN",
+      "costo": 5000,
+      "precio": 7500,
+      "stock": 1,
+      "cat.1": "ANILLO",
+      "cat.2": "ORO"
+    },
+    {
+      "id": 22,
+      "nombre": "ANILLO V CRISTAL",
+      "costo": 6000,
+      "precio": 9000,
+      "stock": 1,
+      "cat.1": "ANILLO",
+      "cat.2": "ORO"
+    }
+  ]

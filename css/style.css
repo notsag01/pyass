@@ -33,10 +33,10 @@ a.contacto{
     box-sizing: border-box;
 }
 @media only screen and (min-width:768px){
-    .navRow{
+    
         /* -----------LA IDEA ES PONERLE ALTURA AL DIV PARA RESALTAR EL LOGO--------------------------------------------------------- */
     }
-}
+
 .columnas{
     margin-bottom: 1rem;
 }
@@ -75,7 +75,7 @@ section{
     padding: 0px 0px;
     overflow: hidden;
 }
-.cuerpo{
+#producto{
     height: 12rem;
 }
 /* DIV TARJETAS */
