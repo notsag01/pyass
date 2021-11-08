@@ -1,135 +1,49 @@
-
-    const productosALaVenta=[]
-    const carrito=[]
-    const costos=[]
-
-    console.log(productosALaVenta)
-    console.log(carrito)
-    console.log(costos)
-
-    let totalCostos=0;
-    let montoTotalAAbonar=0;
-
-    class Productos{
-        constructor(id, nombre, costo, cantidad){
-            this.id=id; 
-            this.nombre=nombre.toUpperCase();
-            this.costo=Number(costo);
-            this.cantidad=Number(cantidad)
-        }
-    }
-
-
-    /* AGREGO 3 PRODUCTOS */
-    productosALaVenta.push( new Productos("1", "pulsera Acero", 500, 10))
-    productosALaVenta.push( new Productos("2", "pulsera Plata", 1000, 10))
-    productosALaVenta.push( new Productos("3", "pulsera Oro", 1500, 10))
-    productosALaVenta.push( new Productos("4", "anillo plata", 2000, 10))
-    productosALaVenta.push( new Productos("5", "anillo Oro", 3000, 10))
-    
-    localStorage.setItem("productos", JSON.stringify(productosALaVenta))
-    
-    const getAll=()=>{
-        console.log(productosALaVenta)
-    }
-    for(const producto of productosALaVenta){
-        console.log(producto.nombre)
-    }
-
-
-  
-    /* ------------------------   FUNCION BUSCAR   ---------------------------------- */
-    const bucar=(nombre)=>{
-        nombre=nombre.toUpperCase()
-
-        const producto= productosALaVenta.find(
-            productos=>productos.nombre===nombre
-        )
-
-        if (!producto){
-            console.log(`no existe ${producto}`)
-        }
-        return(producto)
-    }
-
-    //COMPROBACION
-    /* console.log(bucar("pulsera plata")) */
+const URL_GET_PRODUCTOS = `productos.json`
 
 
 
-    /* ------------------    FUNCION PARA BORRAR   ----------------------------------- */
-
-    const borrar=(nombre)=>{
-        const producto =bucar(nombre)
-        const index= productosALaVenta.indexOf(
-            producto
-        )           
-        productosALaVenta.splice(index,1)           
-    }
-
-    //COMPROBACION
-    /* console.log(borrar("pulsera plata")) */
-
-    /* --------------------    CARRITO DE VENTA     --------------------- */
 
 
-    const nuevaVenta=(nombre)=>{
-        const producto =bucar(nombre)
+    $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
+        /* if(estado !== "success"){
+            throw new Error("ERROR!")
+        } */
+
+        for(const producto of respuesta){
             
-        carrito.push(producto)
-    }
+            console.log(respuesta)
+            console.log(estado)
 
-    nuevaVenta("pulsera acero")
+            
+            if(estado!== "success"){
+                throw new Error("ERROR!")
+            }
+            
+            for(const producto of respuesta){
+                //console.log("hola")
+                
+            $("#linea-separadora").append(
+                `
+                <div class="contTarj">
+                <div class="d-flex justify-content-center">
+                    <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
+                </div>
+                <hr>
+                <div id="producto" class="text-center">
+                    <div class="descripcion">
+                        <a href="">${producto.nombre}</a>
+                    </div>
+                    <div>
+                        <span>$${producto.precio}</span>
+                    </div>
+                    <div class=" botones">
+                        <a href=""><button class="comprar">COMPRAR</button></a>
+                        <a href=""><button class="ver">VER</button></a>
+                    </div>
+                </div>
+            </div>  `
+                )
+            }
 
-    //COMPROBACION        -----------------------este despues va a ser un boton!!!
-    /* nuevaVenta(prompt("nombre")) */
-
-    localStorage.setItem("carrito de compras", JSON.stringify(carrito))
-
-
-    /* -------------------------------------------------- */
-
-
-    
-    
-    
-    const productosDelBody=document.getElementById("productos")
-    const fragmento=document.createDocumentFragment()
-
-    
-    productosALaVenta.forEach((producto)=>{
-
-    const div=document.createElement("div")
-    div.id="col-6 col-md-4 columnas"
-
-    const divTarjetas=document.createElement("div")
-    divTarjetas.id="contTarj"
-
-    div.appendChild(divTarjetas)
-
-    const divProducto=document.createElement("div")
-    divProducto.className="cuerpo text-center"
-    divTarjetas.appendChild(divProducto)
-
-    divDescripcion=document.createElement("div")
-    divDescripcion.id="descripcion"
-    divProducto.appendChild(divDescripcion)
-    divProducto.innerHTML=`<a href="">${producto.nombre}</a>`
-
-    divPrecio=document.createElement("div")
-    divPrecio.innerHTML=`<spam> ${producto.costo} </spam>`
-    divProducto.appendChild(divPrecio)
-
-    fragmento.appendChild(div)    
-});                    
-
-
-
-
-
-
-   
-
-
-
-
+        }
+    })
