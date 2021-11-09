@@ -39,7 +39,7 @@ const URL_GET_PRODUCTOS = `productos.json`
                             </div>
                             <div class=" botones">
                                 <a href=""><button class="comprar">COMPRAR</button></a>
-                                <a href=""><button class="ver">CARRITO</button></a>
+                                <a href=""><button id="enviar-carrito" class="ver">CARRITO</button></a>
                             </div>
                         </div>        
                     </div>
@@ -57,11 +57,15 @@ $(".nav-link").css({"font-weight": "bolder"}
 $("#carrito").append(`
         <div id="carrito-toggle" style="height: 120px; width:200px"> 
         
-        <h3>"hola"</h3> 
+        <h3></h3> 
         
         </div>                        
 `)
 
 $("#carrito").click(()=>{
     $("#carrito-toggle").toggle("fast");
+})
+
+$("#enviar-carrito").click(()=>{
+
 })
