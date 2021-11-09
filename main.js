@@ -49,3 +49,19 @@ const URL_GET_PRODUCTOS = `productos.json`
 
     }
 })
+
+$(".nav-link").css({"font-weight": "bolder"}
+)
+
+
+$("#carrito").append(`
+        <div id="carrito-toggle" style="height: 120px; width:200px"> 
+        
+        <h3>"hola"</h3> 
+        
+        </div>                        
+`)
+
+$("#carrito").click(()=>{
+    $("#carrito-toggle").toggle("fast");
+})
