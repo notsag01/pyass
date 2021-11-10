@@ -39,7 +39,7 @@ const URL_GET_PRODUCTOS = `productos.json`
                             </div>
                             <div class=" botones">
                                 <a href=""><button class="comprar">COMPRAR</button></a>
-                                <a href=""><button id="enviar-carrito" class="ver">CARRITO</button></a>
+                                <a href=""><button id="enviar-carrito-${producto.id}" class="ver">CARRITO</button></a>
                             </div>
                         </div>        
                     </div>
@@ -55,10 +55,15 @@ $(".nav-link").css({"font-weight": "bolder"}
 
 
 $("#carrito").append(`
-        <div id="carrito-toggle" style="height: 120px; width:200px"> 
-        
-        <h3></h3> 
-        
+        <div class="container" id="carrito-toggle"> 
+            <div class="row">
+                <div class="col-4">
+                    <img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt="">
+                </div>
+                <div class="col">
+                    <h3></h3> 
+                </div>        
+            </div>
         </div>                        
 `)
 
@@ -66,6 +71,6 @@ $("#carrito").click(()=>{
     $("#carrito-toggle").toggle("fast");
 })
 
-$("#enviar-carrito").click(()=>{
+$("#enviar-carrito-").click(()=>{
 
 })
