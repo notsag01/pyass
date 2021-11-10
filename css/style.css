@@ -39,7 +39,8 @@ a.contacto{
 }
 }
 .navRow{
-    background-image: linear-gradient( #fcbfc9,  white);
+    background-image: linear-gradient( #f8dfe3,  white);
+    
     box-sizing: border-box;
 }
 @media only screen and (min-width:768px){
@@ -65,7 +66,7 @@ a.contacto{
 }
 /* --------------------------------- */
 section{
-    background-image: linear-gradient( #fcbfc9,  white);
+    background-image: linear-gradient( #f8dfe3,  white);
     background-attachment: fixed;
     margin-top: 12rem;
 }
