@@ -2,6 +2,14 @@ const URL_GET_PRODUCTOS = `productos.json`
 
 const carrito=[]
 
+class ProductosCarrito{
+    constructor(id, nombre, precio){
+        this.id=id
+        this.nombre=nombre
+        this.precio=precio
+    }
+}
+
 
 
     $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
@@ -49,35 +57,27 @@ const carrito=[]
             }  
             $(`#enviar-carrito-${producto.id}`).click(()=>{
                 //console.log(producto.nombre)
-                carrito.push(producto)
-                console.log(carrito)
+                const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
+                //console.log(itemCarrito)
+                addItemCarrito(itemCarrito)
             })                  
         }           
     })
+
+    const addItemCarrito=(item)=>{
+        carrito.push(item)
+        console.log(carrito)
+    }
 
 $(".nav-link").css({"font-weight": "bolder"}
 )
 
 
 
-for(const producto of carrito){
 
 
-$("#carrito").append(`
-        <div class="container" id="carrito-toggle"> 
-            <div class="row">
-                <div class="col-4">
-                    <img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt="">
-                </div>
-                <div class="col">
-                    <h3> ${producto.nombre} </h3> 
-                </div>        
-            </div>
-        </div>                        
-`)
-$("#carrito").click(()=>{
-    $("#carrito-toggle").toggle("fast");
-})
+export{
+    carrito
 }
 
 
