@@ -76,7 +76,8 @@ $(".nav-link").css({"font-weight": "bolder"}
 
 
 
-export{
+
+export{    
     carrito
 }
 
