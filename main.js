@@ -43,14 +43,15 @@ class ProductosCarrito{
                     </div>
                 </div>  `                
                 )
-                
+                $(`#enviar-carrito-${producto.id}`).click(()=>{
+                    //console.log(producto.nombre)
+                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
+                    //console.log(itemCarrito)
+                    addItemCarrito(itemCarrito)
+                } 
+                ) 
             }  
-            $(`#enviar-carrito-${producto.id}`).click(()=>{
-                //console.log(producto.nombre)
-                const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
-                //console.log(itemCarrito)
-                addItemCarrito(itemCarrito)
-            })                  
+                             
                  
     })
 
