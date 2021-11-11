@@ -13,14 +13,14 @@ class ProductosCarrito{
         if(estado !== "success"){
             throw new Error("ERROR!")
         }
-        const pagPrincipal=respuesta.filter(element=>element.paginaPrincipal==="true")
+        const pagPrincipal= respuesta.filter(element=>element.paginaPrincipal==="true" && element.cat2 === "PLATA" )
         console.log(pagPrincipal)
     
             
             for(const producto of pagPrincipal){
                 //console.log("hola")
                 
-            $("#contenedor-productos").append(
+            $("#contenedor-productos-plata").append(
                 `
                     <div class="col-6 col-md-4 columnas">
                         <div class="contTarj">
@@ -30,14 +30,14 @@ class ProductosCarrito{
                                 <hr>
                             <div id="producto" class="text-center">
                                 <div class="descripcion">
-                                    <h4 >${producto.nombre}</h4>
+                                    <h4 id="nombre-producto" >${producto.nombre}</h4>
                                 </div>
                             <div>
-                                <span>$${producto.precio}</span>
+                                <span id="spam-precio">$${producto.precio}</span>
                             </div>
                             <div class=" botones">
                                 <a href=""><button class="comprar">COMPRAR</button></a>
-                                <button id="enviar-carrito-${producto.id}" type="button" class="ver">CARRITO</button>
+                                <button id="enviar-carrito-${producto.id}" type="button" class="ver"> + CARRITO</button>
                             </div>
                         </div>        
                     </div>

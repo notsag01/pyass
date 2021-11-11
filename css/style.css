@@ -75,6 +75,15 @@ section{
         margin-top: 3rem;
     }
 }
+/* TITULOS */
+#h1-titulos{
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5rem;
+    color: inherit;
+}
+
+
 /* ---LOS ROWS DEL SECTION---*/
 .marRow{
     max-width: 100%; 
@@ -110,14 +119,14 @@ section{
     width: 96%;
     margin: .5rem auto .5rem auto;
     height: 4rem;
+    
 }
-.cuerpo span{
-    height: 3rem;
-    font-size: 2rem;
-    display: block;
-    width: 98%;
-    margin: .5rem auto .5rem auto;
-    font-weight: 1000;
+#nombre-producto{
+    overflow: hidden;
+}
+#spam-precio{
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 .cuerpo a{
      text-decoration: none;
