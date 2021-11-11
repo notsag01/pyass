@@ -9,25 +9,15 @@ class ProductosCarrito{
         this.precio=precio
     }
 }
-
-
-
     $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
-        /* if(estado !== "success"){
+        if(estado !== "success"){
             throw new Error("ERROR!")
-        } */
-
-        for(const producto of respuesta){
+        }
+        const pagPrincipal=respuesta.filter(element=>element.paginaPrincipal==="true")
+        console.log(pagPrincipal)
+    
             
-            //console.log(respuesta)
-            //console.log(estado)
-
-            
-            if(estado!== "success"){
-                throw new Error("ERROR!")
-            }
-            
-            for(const producto of respuesta){
+            for(const producto of pagPrincipal){
                 //console.log("hola")
                 
             $("#contenedor-productos").append(
@@ -61,7 +51,7 @@ class ProductosCarrito{
                 //console.log(itemCarrito)
                 addItemCarrito(itemCarrito)
             })                  
-        }           
+                 
     })
 
     const addItemCarrito=(item)=>{
@@ -78,7 +68,7 @@ $(".nav-link").css({"font-weight": "bolder"}
 
 
 export{    
-    carrito
+    carrito, ProductosCarrito,
 }
 
 

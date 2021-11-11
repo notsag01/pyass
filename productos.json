@@ -1,3 +1,4 @@
+
  [
     {
       "id": 1,
@@ -5,8 +6,9 @@
       "costo": 1000,
       "precio": 1500,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 2,
@@ -14,8 +16,9 @@
       "costo": 1100,
       "precio": 1650,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 3,
@@ -23,8 +26,9 @@
       "costo": 1200,
       "precio": 1800,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 4,
@@ -32,8 +36,9 @@
       "costo": 1000,
       "precio": 1500,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 5,
@@ -41,8 +46,9 @@
       "costo": 1100,
       "precio": 1650,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 6,
@@ -50,8 +56,9 @@
       "costo": 1200,
       "precio": 1800,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 7,
@@ -59,8 +66,9 @@
       "costo": 1000,
       "precio": 1500,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 8,
@@ -68,8 +76,9 @@
       "costo": 1100,
       "precio": 1650,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true"
     },
     {
       "id": 9,
@@ -77,8 +86,9 @@
       "costo": 500,
       "precio": 750,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 10,
@@ -86,8 +96,9 @@
       "costo": 600,
       "precio": 900,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 11,
@@ -95,8 +106,9 @@
       "costo": 700,
       "precio": 1050,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 12,
@@ -104,8 +116,9 @@
       "costo": 500,
       "precio": 750,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 13,
@@ -113,8 +126,9 @@
       "costo": 600,
       "precio": 900,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 14,
@@ -122,8 +136,9 @@
       "costo": 700,
       "precio": 1050,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 15,
@@ -131,8 +146,9 @@
       "costo": 500,
       "precio": 750,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 16,
@@ -140,8 +156,9 @@
       "costo": 600,
       "precio": 900,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 17,
@@ -149,8 +166,9 @@
       "costo": 700,
       "precio": 1050,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 18,
@@ -158,8 +176,9 @@
       "costo": 5000,
       "precio": 7500,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 19,
@@ -167,8 +186,9 @@
       "costo": 6000,
       "precio": 9000,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 20,
@@ -176,8 +196,9 @@
       "costo": 6500,
       "precio": 9750,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 21,
@@ -185,8 +206,9 @@
       "costo": 5000,
       "precio": 7500,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false"
     },
     {
       "id": 22,
@@ -194,7 +216,8 @@
       "costo": 6000,
       "precio": 9000,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false"
     }
   ]
