@@ -30,7 +30,53 @@ class ProductosCarrito{
                                 <hr>
                             <div id="producto" class="text-center">
                                 <div class="descripcion">
-                                    <h4 id="nombre-producto" >${producto.nombre}</h4>
+                                    <h4 id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</h4>
+                                </div>
+                            <div>
+                                <span id="spam-precio">$${producto.precio}</span>
+                            </div>
+                            <div class=" botones">
+                                <a href=""><button class="comprar">COMPRAR</button></a>
+                                <button id="enviar-carrito-${producto.id}" type="button" class="ver"> + CARRITO</button>
+                            </div>
+                        </div>        
+                    </div>
+                </div>  `                
+                )
+                $(`#enviar-carrito-${producto.id}`).click(()=>{
+                    //console.log(producto.nombre)
+                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
+                    //console.log(itemCarrito)
+                    addItemCarrito(itemCarrito)
+                } 
+                ) 
+            }  
+                             
+                 
+    })
+
+    $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
+        if(estado !== "success"){
+            throw new Error("ERROR!")
+        }
+        const pagPrincipal= respuesta.filter(element=>element.paginaPrincipal==="true" && element.cat2 === "ACERO" )
+        console.log(pagPrincipal)
+    
+            
+            for(const producto of pagPrincipal){
+                //console.log("hola")
+                
+            $("#contenedor-productos-acero").append(
+                `
+                    <div class="col-6 col-md-4 columnas">
+                        <div class="contTarj">
+                            <div class="d-flex justify-content-center">
+                                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
+                            </div>
+                                <hr>
+                            <div id="producto" class="text-center">
+                                <div class="descripcion">
+                                    <h4 id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</h4>
                                 </div>
                             <div>
                                 <span id="spam-precio">$${producto.precio}</span>
