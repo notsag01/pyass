@@ -1,12 +1,15 @@
- [
+
+   [
     {
       "id": 1,
       "nombre": "ANILLO CARACOL",
       "costo": 1000,
       "precio": 1500,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true",
+      "oferta": "false"
     },
     {
       "id": 2,
@@ -14,8 +17,10 @@
       "costo": 1100,
       "precio": 1650,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true",
+      "oferta": "false"
     },
     {
       "id": 3,
@@ -23,8 +28,10 @@
       "costo": 1200,
       "precio": 1800,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 4,
@@ -32,8 +39,10 @@
       "costo": 1000,
       "precio": 1500,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 5,
@@ -41,8 +50,10 @@
       "costo": 1100,
       "precio": 1650,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 6,
@@ -50,8 +61,10 @@
       "costo": 1200,
       "precio": 1800,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 7,
@@ -59,8 +72,10 @@
       "costo": 1000,
       "precio": 1500,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 8,
@@ -68,8 +83,10 @@
       "costo": 1100,
       "precio": 1650,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "PLATA"
+      "cat1": "ANILLO",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 9,
@@ -77,8 +94,10 @@
       "costo": 500,
       "precio": 750,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
     },
     {
       "id": 10,
@@ -86,8 +105,10 @@
       "costo": 600,
       "precio": 900,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
     },
     {
       "id": 11,
@@ -95,8 +116,10 @@
       "costo": 700,
       "precio": 1050,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 12,
@@ -104,8 +127,10 @@
       "costo": 500,
       "precio": 750,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 13,
@@ -113,8 +138,10 @@
       "costo": 600,
       "precio": 900,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 14,
@@ -122,8 +149,10 @@
       "costo": 700,
       "precio": 1050,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 15,
@@ -131,8 +160,10 @@
       "costo": 500,
       "precio": 750,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 16,
@@ -140,8 +171,10 @@
       "costo": 600,
       "precio": 900,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 17,
@@ -149,8 +182,10 @@
       "costo": 700,
       "precio": 1050,
       "stock": 10,
-      "cat.1": "ANILLO",
-      "cat.2": "ACERO"
+      "cat1": "ANILLO",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 18,
@@ -158,8 +193,10 @@
       "costo": 5000,
       "precio": 7500,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
     },
     {
       "id": 19,
@@ -167,8 +204,10 @@
       "costo": 6000,
       "precio": 9000,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
     },
     {
       "id": 20,
@@ -176,8 +215,10 @@
       "costo": 6500,
       "precio": 9750,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 21,
@@ -185,8 +226,10 @@
       "costo": 5000,
       "precio": 7500,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     },
     {
       "id": 22,
@@ -194,7 +237,438 @@
       "costo": 6000,
       "precio": 9000,
       "stock": 1,
-      "cat.1": "ANILLO",
-      "cat.2": "ORO"
+      "cat1": "ANILLO",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 23,
+      "nombre": "DIJE MANZANITAS",
+      "costo": 600,
+      "precio": 900,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 24,
+      "nombre": "DIJE ARBOL",
+      "costo": 700,
+      "precio": 1050,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 25,
+      "nombre": "DIJE CORAZON",
+      "costo": 800,
+      "precio": 1200,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 26,
+      "nombre": "DIJE CORONA",
+      "costo": 600,
+      "precio": 900,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 27,
+      "nombre": "DIJE MANO ",
+      "costo": 700,
+      "precio": 1050,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 28,
+      "nombre": "DIJE MARIPOSA",
+      "costo": 800,
+      "precio": 1200,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 29,
+      "nombre": "DIJE PLANETA",
+      "costo": 700,
+      "precio": 1050,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 30,
+      "nombre": "DIJE TREBOL",
+      "costo": 800,
+      "precio": 1200,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 31,
+      "nombre": "DIJE ATRAPASUEÑO",
+      "costo": 6000,
+      "precio": 9000,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 32,
+      "nombre": "DIJE BOCA",
+      "costo": 6500,
+      "precio": 9750,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 33,
+      "nombre": "DIJE CORAZON",
+      "costo": 7000,
+      "precio": 10500,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 34,
+      "nombre": "DIJE DELFIN",
+      "costo": 8000,
+      "precio": 12000,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 35,
+      "nombre": "DIJE DINERO ",
+      "costo": 7000,
+      "precio": 10500,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 36,
+      "nombre": "DIJE ESCULAPIO",
+      "costo": 6000,
+      "precio": 9000,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 37,
+      "nombre": "DIJE CON ESMERALDA",
+      "costo": 6500,
+      "precio": 9750,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 38,
+      "nombre": "DIJE ESPADA",
+      "costo": 8000,
+      "precio": 12000,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 39,
+      "nombre": "DIJE MARIPOSA",
+      "costo": 6500,
+      "precio": 9750,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "ORO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 40,
+      "nombre": "DIJE ALA",
+      "costo": 2500,
+      "precio": 3750,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 41,
+      "nombre": "DIJE ARBOL",
+      "costo": 3000,
+      "precio": 4500,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 42,
+      "nombre": "DIJE BUHO",
+      "costo": 3500,
+      "precio": 5250,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 43,
+      "nombre": "DIJE CORAZON",
+      "costo": 3500,
+      "precio": 5250,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 44,
+      "nombre": "DIJE CRUZ",
+      "costo": 3500,
+      "precio": 5250,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 45,
+      "nombre": "DIJE INFINITO ",
+      "costo": 3500,
+      "precio": 5250,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 46,
+      "nombre": "DIJE MARGARITA",
+      "costo": 3500,
+      "precio": 5250,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 47,
+      "nombre": "DIJE MEDALLA MILITAR",
+      "costo": 3500,
+      "precio": 5250,
+      "stock": 1,
+      "cat1": "DIJE",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 48,
+      "nombre": "PULSERA BOLITAS",
+      "costo": 800,
+      "precio": 1200,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ACERO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 49,
+      "nombre": "PULSRA CON DIJES",
+      "costo": 900,
+      "precio": 1350,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ACERO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 50,
+      "nombre": "PULSERA CON FLOR",
+      "costo": 1000,
+      "precio": 1500,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 51,
+      "nombre": "PULSRA IDENTIFICACION",
+      "costo": 1000,
+      "precio": 1500,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 52,
+      "nombre": "PULSERA INFINITO",
+      "costo": 900,
+      "precio": 1350,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 53,
+      "nombre": "PULSERA ESCLAVA",
+      "costo": 800,
+      "precio": 1200,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ACERO",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 54,
+      "nombre": "PULSERA IDENTIFICACION",
+      "costo": 6800,
+      "precio": 10200,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "ORO",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 55,
+      "nombre": "PULSERA CLAPTON",
+      "costo": 3200,
+      "precio": 4800,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 56,
+      "nombre": "CORONA CON CIERRE",
+      "costo": 3800,
+      "precio": 5700,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "true",
+      "oferta": "false"
+    },
+    {
+      "id": 57,
+      "nombre": "PULSERA FIGARO",
+      "costo": 4000,
+      "precio": 6000,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 58,
+      "nombre": "PULSERA GRUME",
+      "costo": 3200,
+      "precio": 4800,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 59,
+      "nombre": "PULSERA MALLA",
+      "costo": 3800,
+      "precio": 5700,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 60,
+      "nombre": "PULSERA SOGA",
+      "costo": 4000,
+      "precio": 6000,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
+    },
+    {
+      "id": 61,
+      "nombre": "PULSERA VENECIANA",
+      "costo": 4000,
+      "precio": 6000,
+      "stock": 1,
+      "cat1": "PULSERAS",
+      "cat2": "PLATA",
+      "paginaPrincipal": "false",
+      "oferta": "false"
     }
   ]

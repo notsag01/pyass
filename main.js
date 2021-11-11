@@ -9,28 +9,18 @@ class ProductosCarrito{
         this.precio=precio
     }
 }
-
-
-
     $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
-        /* if(estado !== "success"){
+        if(estado !== "success"){
             throw new Error("ERROR!")
-        } */
-
-        for(const producto of respuesta){
+        }
+        const pagPrincipal= respuesta.filter(element=>element.paginaPrincipal==="true" && element.cat2 === "PLATA" )
+        console.log(pagPrincipal)
+    
             
-            //console.log(respuesta)
-            //console.log(estado)
-
-            
-            if(estado!== "success"){
-                throw new Error("ERROR!")
-            }
-            
-            for(const producto of respuesta){
+            for(const producto of pagPrincipal){
                 //console.log("hola")
                 
-            $("#contenedor-productos").append(
+            $("#contenedor-productos-plata").append(
                 `
                     <div class="col-6 col-md-4 columnas">
                         <div class="contTarj">
@@ -40,28 +30,29 @@ class ProductosCarrito{
                                 <hr>
                             <div id="producto" class="text-center">
                                 <div class="descripcion">
-                                    <h4 >${producto.nombre}</h4>
+                                    <h4 id="nombre-producto" >${producto.nombre}</h4>
                                 </div>
                             <div>
-                                <span>$${producto.precio}</span>
+                                <span id="spam-precio">$${producto.precio}</span>
                             </div>
                             <div class=" botones">
                                 <a href=""><button class="comprar">COMPRAR</button></a>
-                                <button id="enviar-carrito-${producto.id}" type="button" class="ver">CARRITO</button>
+                                <button id="enviar-carrito-${producto.id}" type="button" class="ver"> + CARRITO</button>
                             </div>
                         </div>        
                     </div>
                 </div>  `                
                 )
-                
+                $(`#enviar-carrito-${producto.id}`).click(()=>{
+                    //console.log(producto.nombre)
+                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
+                    //console.log(itemCarrito)
+                    addItemCarrito(itemCarrito)
+                } 
+                ) 
             }  
-            $(`#enviar-carrito-${producto.id}`).click(()=>{
-                //console.log(producto.nombre)
-                const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
-                //console.log(itemCarrito)
-                addItemCarrito(itemCarrito)
-            })                  
-        }           
+                             
+                 
     })
 
     const addItemCarrito=(item)=>{
@@ -78,7 +69,7 @@ $(".nav-link").css({"font-weight": "bolder"}
 
 
 export{    
-    carrito
+    carrito, ProductosCarrito,
 }
 
 
