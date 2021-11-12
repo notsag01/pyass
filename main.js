@@ -22,7 +22,7 @@ class ProductosCarrito{
                 
             $("#contenedor-productos-plata").append(
                 `
-                    <div class="col-md-4 columnas">
+                    <div class="col-md-6 col-xl-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
                                 <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
@@ -68,7 +68,7 @@ class ProductosCarrito{
                 
             $("#contenedor-productos-acero").append(
                 `
-                    <div class="col-md-4 columnas">
+                    <div class="col-md-6 col-xl-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
                                 <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
@@ -83,7 +83,7 @@ class ProductosCarrito{
                             </div>
                             <div class=" botones">
                                 <a href=""><button class="comprar">COMPRAR</button></a>
-                                <button id="enviar-carrito-${producto.id}" type="button" class="ver"> + CARRITO</button>
+                                <button id="enviar-carrito-${producto.id}" class="ver"> + CARRITO</button>
                             </div>
                         </div>        
                     </div>
@@ -117,9 +117,14 @@ class ProductosCarrito{
             $("#nombre-producto-carrito").append(
                 `
                 <div class="row">
-                    <h6> ${producto.nombre} </h6><br>
-                    <spam>${producto.precio}</spam>
+                    <div class="col">                    
+                        <h6> ${producto.nombre} </h6><br>
+                    </div>
+                    <div class="col">
+                        <spam>${producto.precio}</spam>
+                    </div>    
                 </div>
+                <br>
                 `
             )
         }
