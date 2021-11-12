@@ -81,6 +81,7 @@ section{
     overflow: hidden;
     padding: 0.5rem;
     color: inherit;
+    text-shadow: 1px 5px 1px #f8ced5  ;
 }
 
 
@@ -123,10 +124,14 @@ section{
 }
 #nombre-producto{
     overflow: hidden;
+    text-shadow: 1px 5px 1px #f8ced5  ;
+
 }
 #spam-precio{
     font-size: 1.5rem;
     font-weight: bolder;
+    text-shadow: 1px 5px 1px #f8ced5  ;
+
 }
 .cuerpo a{
      text-decoration: none;
@@ -144,6 +149,7 @@ section{
     height: 2rem ;
     width: 8rem;
     font-weight: bolder;
+    
 }
 .ver{
     background-color: black;
@@ -152,6 +158,10 @@ section{
     height: 2rem ;
     width: 8rem;
     font-weight: bolder;
+}
+/* SEPARA CONTENEDORES */
+#separa-contenedores{
+    box-shadow: 0 1px 5px 1px #e92c4b;
 }
 
 
