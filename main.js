@@ -22,7 +22,7 @@ class ProductosCarrito{
                 
             $("#contenedor-productos-plata").append(
                 `
-                    <div class="col-6 col-md-4 columnas">
+                    <div class="col-md-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
                                 <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
@@ -68,7 +68,7 @@ class ProductosCarrito{
                 
             $("#contenedor-productos-acero").append(
                 `
-                    <div class="col-6 col-md-4 columnas">
+                    <div class="col-md-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
                                 <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
