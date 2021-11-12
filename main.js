@@ -104,7 +104,27 @@ class ProductosCarrito{
     const addItemCarrito=(item)=>{
         carrito.push(item)
         console.log(carrito)
+
+        rendCarrito()
     }
+
+    
+
+    const rendCarrito=()=>{  
+
+        $("#nombre-producto-carrito").empty()
+        for(const producto of carrito){
+            $("#nombre-producto-carrito").append(
+                `
+                <div class="row">
+                    <h6> ${producto.nombre} </h6><br>
+                    <spam>${producto.precio}</spam>
+                </div>
+                `
+            )
+        }
+         }
+        rendCarrito()
 
 $(".nav-link").css({"font-weight": "bolder"}
 )
