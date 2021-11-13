@@ -116,15 +116,17 @@ class ProductosCarrito{
         for(const producto of carrito){
             $("#nombre-producto-carrito").append(
                 `
-                <div class="row">
-                    <div class="col">                    
-                        <h6> ${producto.nombre} </h6><br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">                    
+                            <h6 id="nombre-producto-carrito"> ${producto.nombre} </h6><br>
+                        </div>
+                        <div class="col">
+                            <spam>${producto.precio}</spam>
+                        </div>    
                     </div>
-                    <div class="col">
-                        <spam>${producto.precio}</spam>
-                    </div>    
-                </div>
-                <br>
+                    <br>
+                </div>    
                 `
             )
         }
