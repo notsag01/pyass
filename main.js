@@ -117,13 +117,13 @@ class ProductosCarrito{
             $("#nombre-producto-carrito").append(
                 `
                 
-                        <div class="col">                    
+                                            
                             <ul>
                                 <li> ${producto.nombre} - $${producto.precio} </li>                               
                             </ul>                           
                        
                     <br>
-                </div>    
+              
                 `
             )
         }
