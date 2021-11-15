@@ -2,6 +2,7 @@ const URL_GET_PRODUCTOS = `productos.json`
 
 const carrito=[]
 
+
 class ProductosCarrito{
     constructor(id, nombre, precio){
         this.id=id
@@ -112,6 +113,12 @@ class ProductosCarrito{
 
     const rendCarrito=()=>{  
 
+        if(carrito===carrito.empty){
+            $("#nombre-producto-carrit").append(
+                `El carrito está vacio`
+            )
+        }
+
         $("#nombre-producto-carrito").empty()
         for(const producto of carrito){
             $("#nombre-producto-carrito").append(
@@ -119,6 +126,7 @@ class ProductosCarrito{
                 
                                             
                             <ul>
+                                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
                                 <li> ${producto.nombre} - $${producto.precio} </li>                               
                             </ul>                           
                        
