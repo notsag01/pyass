@@ -131,9 +131,26 @@ class ProductosCarrito{
 $(".nav-link").css({"font-weight": "bolder"}
 )
 
+$("#buscar").append(
+    `<input id="buscar-por-nombre" class="form-control my-4 d-none d-md-block" type="search" placeholder="BUSCAR" aria-label="Search">`
+)
+$.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
+    
+    if(estado !== "success"){
+        throw new Error("ERROR!")
+    }
 
+    const buscarProducto=(nombre)=>{
+        const reusltadoBusqueda=respuesta.find(elemento=>elemento.nombre===nombre)
 
+        if(!reusltadoBusqueda){
+            throw new Error("No se encontraron productos con ese nombre")
+        }
+        return reusltadoBusqueda
+    }
+    
 
+})
 
 
 export{    
