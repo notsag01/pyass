@@ -1,9 +1,5 @@
 import { carrito, ProductosCarrito } from "./main.js";
 
-let totalCarrito=0;
-console.log(totalCarrito)
-
-
 
 
 $("#carrito").append(`
@@ -17,12 +13,7 @@ $("#carrito").append(`
     
 
         $("#carrito").click(()=>{
-            $("#carrito-toggle").toggle("slow");
-
-            for(const producto of carrito){
-                totalCarrito=producto.precio + totalCarrito
-            
-                }  
+            $("#carrito-toggle").toggle("slow");           
         })
     
   

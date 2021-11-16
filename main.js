@@ -1,6 +1,6 @@
 const URL_GET_PRODUCTOS = `productos.json`
 
-const carrito=[]
+const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
 
 
 class ProductosCarrito{
@@ -104,39 +104,29 @@ class ProductosCarrito{
 
     const addItemCarrito=(item)=>{
         carrito.push(item)
+        localStorage.setItem(`carrito`, JSON.stringify(carrito))
         console.log(carrito)
 
         rendCarrito()
     }
 
-    
-
     const rendCarrito=()=>{  
-
-        if(carrito===carrito.empty){
-            $("#nombre-producto-carrit").append(
-                `El carrito está vacio`
-            )
-        }
 
         $("#nombre-producto-carrito").empty()
         for(const producto of carrito){
             $("#nombre-producto-carrito").append(
-                `
-                
-                                            
-                            <ul>
-                                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
-                                <li> ${producto.nombre} - $${producto.precio} </li>                               
-                            </ul>                           
+                `                                            
+                <ul>
+                    <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
+                    <li> ${producto.nombre} - $${producto.precio} </li>                               
+                </ul>                           
                        
-                    <br>
-                
+                <br>                
                 `
             )
         }
-         }
-        rendCarrito()
+        }
+        
 
 $(".nav-link").css({"font-weight": "bolder"}
 )
