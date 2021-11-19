@@ -145,8 +145,9 @@ $("#busca-productos").submit((e)=>{
     e.preventDefault()
 
     const elemento= getElementoBuscar.value
-    
-    buscar(elemento)    
+    const elementoB=elemento.toUpperCase()
+
+    buscar(elementoB)    
 })
 
 const buscar=(elemento)=>{
@@ -156,7 +157,7 @@ const buscar=(elemento)=>{
             throw new Error(" Error en bucar!")
         }
         const productos = respuesta
-
+        
 
         const resultado=productos.filter(producto=>
             producto.nombre.includes(elemento)  )
