@@ -83,6 +83,7 @@ class ProductosCarrito{
                             <div id="producto" class="text-center">
                                 <div class="descripcion">
                                     <h4 id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</h4>
+                                    <p> id: ${producto.id} </p>
                                 </div>
                             <div>
                                 <span id="spam-precio">$${producto.precio}</span>
