@@ -159,7 +159,7 @@ const buscar=(elemento)=>{
 
 
         const resultado=productos.filter(producto=>
-            producto.nombre === elemento )
+            producto.nombre.includes(elemento)  )
 
         renderResultado(resultado)
 
