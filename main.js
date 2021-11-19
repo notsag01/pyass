@@ -1,6 +1,6 @@
 const URL_GET_PRODUCTOS = `productos.json`
 
-const carrito=[]
+const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
 
 
 class ProductosCarrito{
@@ -10,6 +10,8 @@ class ProductosCarrito{
         this.precio=precio
     }
 }
+
+/* --------------------------   RENDERIZO LAS SECCION PRINCIPAL/ PRODUCTOS SELECCIONADOS DE PLATA */
     $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
         if(estado !== "success"){
             throw new Error("ERROR!")
@@ -55,6 +57,8 @@ class ProductosCarrito{
                              
                  
     })
+
+/*  --------------------------------   RENDERIZO PRODUCTOS SELECCIONADOS DE ACERO   ---------------------------------------------- */
 
     $.get(URL_GET_PRODUCTOS, (respuesta, estado)=>{
         if(estado !== "success"){
@@ -102,47 +106,69 @@ class ProductosCarrito{
                  
     })
 
+/*  --------------------   FUNCION PARA AGREGAR PRODUCTOS AL CARRITO   -------------------------------------------------- */
     const addItemCarrito=(item)=>{
         carrito.push(item)
+        localStorage.setItem(`carrito`, JSON.stringify(carrito))
         console.log(carrito)
 
         rendCarrito()
     }
-
-    
-
+            /* ----------   RENDERIZO EL CARRITO  ------------- */
     const rendCarrito=()=>{  
-
-        if(carrito===carrito.empty){
-            $("#nombre-producto-carrit").append(
-                `El carrito está vacio`
-            )
-        }
 
         $("#nombre-producto-carrito").empty()
         for(const producto of carrito){
             $("#nombre-producto-carrito").append(
-                `
-                
-                                            
-                            <ul>
-                                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
-                                <li> ${producto.nombre} - $${producto.precio} </li>                               
-                            </ul>                           
+                `                                            
+                <ul>
+                    <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
+                    <li> ${producto.nombre} - $${producto.precio} </li>                               
+                </ul>                           
                        
-                    <br>
-                
+                <br>                
                 `
             )
         }
-         }
-        rendCarrito()
+        }
+        
 
 $(".nav-link").css({"font-weight": "bolder"}
 )
 
 
+/*  ----------------------   BUSCAR PRODUCTOS EN EL JSON   -------------------------- */
 
+const getElementoBuscar=document.getElementById("buscar")
+
+$("#busca-productos").submit((e)=>{
+    e.preventDefault()
+
+    const elemento= getElementoBuscar.value
+    
+    buscar(elemento)    
+})
+
+const buscar=(elemento)=>{
+
+    $.get(URL_GET_PRODUCTOS,(respuesta,estado)=>{
+        if(estado!== "success"){
+            throw new Error(" Error en bucar!")
+        }
+        const productos = respuesta
+
+
+        const resultado=productos.filter(producto=>
+            producto.nombre === elemento )
+
+        renderResultado(resultado)
+
+    })
+
+}
+const renderResultado=(producto)=>{
+    console.log(producto)
+}
 
 
 
