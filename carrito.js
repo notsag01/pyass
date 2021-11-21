@@ -19,10 +19,10 @@ $("#carrito").append(`
         $("#carrito").click(()=>{
             $("#carrito-toggle").toggle("slow");
 
-            for(const producto of carrito){
+            /* for(const producto of carrito){
                 totalCarrito=producto.precio + totalCarrito
             
-                }  
+                } */  
         })
     
   

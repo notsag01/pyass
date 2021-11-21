@@ -99,10 +99,9 @@ section{
 /* ---EL CUERPO DE LA TARJETA DONDE SE ENCUNTA LA INFORMCION DEL PRODUCTO--- */
 .principal{
     padding: 0px 0px;
-    overflow: hidden;
 }
 #producto{
-    height: 12rem;
+    height: 15rem;
 }
 /* DIV TARJETAS */
 .contTarj{
@@ -125,11 +124,12 @@ section{
     width: 96%;
     margin: .5rem auto .5rem auto;
     height: 4rem;
-    
+    overflow: hidden;
 }
 #nombre-producto{
     overflow: hidden;
     text-shadow: 1px 5px 1px #f8ced5  ;
+    font-size: 1rem;
 
 }
 #spam-precio{
