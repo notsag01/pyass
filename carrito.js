@@ -9,7 +9,7 @@ console.log(totalCarrito)
 $("#carrito").append(`
             <div class="container" id="carrito-toggle"> 
                 <div class="row">
-                    <div id="nombre-producto-carrito">                        
+                    <div id="nombre-producto-carrito"></div>                    
                 </div>
             </div>        
                                    
@@ -24,8 +24,10 @@ $("#carrito").append(`
             
                 } */  
         })
-    
-  
+
+        
+              
+        
 
 
     

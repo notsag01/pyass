@@ -123,20 +123,25 @@ class ProductosCarrito{
         for(const producto of carrito){
             $("#nombre-producto-carrito").append(
                 `                                            
-                <ul>
-                    <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
-                    <li> ${producto.nombre} - $${producto.precio} </li>                               
-                </ul>                           
-                       
-                <br>                
+                <div>
+                    <p> ${producto.nombre} </p>
+                    <p> ${producto.precio} </p>
+                </div>          
                 `
             )
         }
         }
         
-
 $(".nav-link").css({"font-weight": "bolder"}
 )
+
+$("#abrir-nav").click(()=>{
+   document.getElementById("mi-carrito").style.width="250px"
+})     
+$("#cerrar-nav").click(()=>{
+   document.getElementById("mi-carrito").style.width="0"
+})     
+ 
 
 
 /*  ----------------------   BUSCAR PRODUCTOS EN EL JSON   -------------------------- */
