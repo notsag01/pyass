@@ -119,13 +119,19 @@ class ProductosCarrito{
             /* ----------   RENDERIZO EL CARRITO  ------------- */
     const rendCarrito=()=>{  
 
-        $("#nombre-producto-carrito").empty()
+        $("#productos-del-carrito").empty()
         for(const producto of carrito){
-            $("#nombre-producto-carrito").append(
+            $("#productos-del-carrito").append(
                 `                                            
-                <div>
-                    <p> ${producto.nombre} </p>
-                    <p> ${producto.precio} </p>
+                <div class="container">
+                <div class"row">
+                        <div class"col-6">
+                            <p> ${producto.nombre} </p>
+                        </div>    
+                        <div class"col-6">
+                            <p> ${producto.precio} </p>
+                        </div>    
+                    </div>
                 </div>          
                 `
             )
@@ -135,12 +141,7 @@ class ProductosCarrito{
 $(".nav-link").css({"font-weight": "bolder"}
 )
 
-$("#abrir-nav").click(()=>{
-   document.getElementById("mi-carrito").style.width="250px"
-})     
-$("#cerrar-nav").click(()=>{
-   document.getElementById("mi-carrito").style.width="0"
-})     
+
  
 
 
