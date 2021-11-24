@@ -119,24 +119,30 @@ class ProductosCarrito{
             /* ----------   RENDERIZO EL CARRITO  ------------- */
     const rendCarrito=()=>{  
 
-        $("#nombre-producto-carrito").empty()
+        $("#productos-del-carrito").empty()
         for(const producto of carrito){
-            $("#nombre-producto-carrito").append(
+            $("#productos-del-carrito").append(
                 `                                            
-                <ul>
-                    <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 25%;" alt=""></a>
-                    <li> ${producto.nombre} - $${producto.precio} </li>                               
-                </ul>                           
-                       
-                <br>                
+                <div class="container">
+                <div class"row">
+                        <div class"col-6">
+                            <p> ${producto.nombre} </p>
+                        </div>    
+                        <div class"col-6">
+                            <p> ${producto.precio} </p>
+                        </div>    
+                    </div>
+                </div>          
                 `
             )
         }
         }
         
-
 $(".nav-link").css({"font-weight": "bolder"}
 )
+
+
+ 
 
 
 /*  ----------------------   BUSCAR PRODUCTOS EN EL JSON   -------------------------- */
@@ -172,6 +178,32 @@ const buscar=(elemento)=>{
 const renderResultado=(producto)=>{
     console.log(producto)
 }
+
+for (const producto of carrito){
+$("#contenedor-productos-carrito").append(
+        `<div class="col-md-6 col-xl-4 columnas">
+        <div class="contTarj">
+            <div class="d-flex justify-content-center">
+                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
+            </div>
+                <hr>
+            <div id="producto" class="text-center">
+                <div class="descripcion">
+                    <h4 id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</h4>
+                    <p> id: ${producto.id} </p>
+                </div>
+            <div>
+                <span id="spam-precio">$${producto.precio}</span>
+            </div>
+            <div class=" botones">
+                
+                <button id="enviar-carrito-${producto.id}" class="ver"> QUITAR </button>
+            </div>
+        </div>        
+    </div>
+</div>`
+        )
+    }
 
 
 

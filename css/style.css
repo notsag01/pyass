@@ -23,19 +23,55 @@ a.contacto{
     text-decoration: none;
 }
 /* CARRITO */
-#carrito{
-    padding: 0.25rem 1rem;
-    /*border-radius: 15% ;*/
-    border: white 0.05px solid;
-    background-image: linear-gradient( #fcbfc9,  white);
-    font-weight: bolder;
-    /*position: absolute;
-    z-index: 10;*/
+.carrito{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient( #f8dfe3,  white);
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px;
+    
 }
-#nombre-producto-carrito{
-    overflow: hidden;
+.carrito a{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
     display: block;
+    transition: .3s;
 }
+
+.carrito .cerrar-btn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.btn-producto{
+    position: relative;
+    top: 65%;
+    left: 60%;
+    border-radius: 10%;
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+.btn-producto a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 5px 5px white;
+    font-size: 1.2rem;
+}
+
+/* #nombre-producto-carrito{
+    
+
+} */
 
 /* SECCION NAV */
 @media only screen and (max-width:768px){
