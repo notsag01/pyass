@@ -9,7 +9,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": "https://drive.google.com/file/d/1PF-rIZEGgtRrKU6153O1AGMQwneDO1Ds/view?usp=sharing"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": "https://drive.google.com/file/d/1zqy1uOeZTzrA06G5CsygzvGCisGXUf9T/view?usp=sharing"
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": "https://drive.google.com/file/d/1lUQhmUM5Lke96aQ6ZTvC-IYa7jS3YtsU/view?usp=sharing"
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 8,
@@ -86,7 +93,8 @@
       "cat1": "ANILLO",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 9,
@@ -97,7 +105,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 10,
@@ -108,7 +117,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 11,
@@ -119,7 +129,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 12,
@@ -130,7 +141,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 13,
@@ -141,7 +153,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 14,
@@ -152,7 +165,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 15,
@@ -163,7 +177,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 16,
@@ -174,7 +189,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 17,
@@ -185,7 +201,8 @@
       "cat1": "ANILLO",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 18,
@@ -196,7 +213,8 @@
       "cat1": "ANILLO",
       "cat2": "ORO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 19,
@@ -207,7 +225,8 @@
       "cat1": "ANILLO",
       "cat2": "ORO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 20,
@@ -218,7 +237,8 @@
       "cat1": "ANILLO",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 21,
@@ -229,7 +249,8 @@
       "cat1": "ANILLO",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 22,
@@ -240,7 +261,8 @@
       "cat1": "ANILLO",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 23,
@@ -251,7 +273,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 24,
@@ -262,7 +285,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 25,
@@ -273,7 +297,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 26,
@@ -284,7 +309,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 27,
@@ -295,7 +321,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 28,
@@ -306,7 +333,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 29,
@@ -317,7 +345,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 30,
@@ -328,7 +357,8 @@
       "cat1": "DIJE",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 31,
@@ -339,7 +369,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 32,
@@ -350,7 +381,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 33,
@@ -361,7 +393,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 34,
@@ -372,7 +405,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 35,
@@ -383,7 +417,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 36,
@@ -394,7 +429,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 37,
@@ -405,7 +441,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 38,
@@ -416,7 +453,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 39,
@@ -427,7 +465,8 @@
       "cat1": "DIJE",
       "cat2": "ORO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 40,
@@ -438,7 +477,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 41,
@@ -449,7 +489,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 42,
@@ -460,7 +501,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 43,
@@ -471,7 +513,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 44,
@@ -482,7 +525,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 45,
@@ -493,7 +537,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 46,
@@ -504,7 +549,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 47,
@@ -515,7 +561,8 @@
       "cat1": "DIJE",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 48,
@@ -526,7 +573,8 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 49,
@@ -537,7 +585,8 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 50,
@@ -548,7 +597,8 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 51,
@@ -559,7 +609,8 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 52,
@@ -570,7 +621,8 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 53,
@@ -581,7 +633,8 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 54,
@@ -592,7 +645,8 @@
       "cat1": "PULSERAS",
       "cat2": "ORO",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 55,
@@ -603,7 +657,8 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 56,
@@ -614,7 +669,8 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "true",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 57,
@@ -625,7 +681,8 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 58,
@@ -636,7 +693,8 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 59,
@@ -647,7 +705,8 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 60,
@@ -658,7 +717,8 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     },
     {
       "id": 61,
@@ -669,6 +729,7 @@
       "cat1": "PULSERAS",
       "cat2": "PLATA",
       "paginaPrincipal": "false",
-      "oferta": "false"
+      "oferta": "false",
+      "img": null
     }
   ]
