@@ -18,7 +18,7 @@ console.log(totalCarrito)
          
          
 
-         for (const producto of carrito){
+        /*  for (const producto of carrito){
             $("#contenedor-productos-carrito").append(
                     `<div class="col-md-6 col-xl-4 columnas">
                     <div class="contTarj">
@@ -42,7 +42,7 @@ console.log(totalCarrito)
                 </div>
             </div>`
                     )
-                }         
+                }  */        
         
 
 

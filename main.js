@@ -196,8 +196,8 @@ $("#contenedor-productos-carrito").append(
                 <span id="spam-precio">$${producto.precio}</span>
             </div>
             <div class=" botones">
-                <a href=""><button class="comprar">COMPRAR</button></a>
-                <button id="enviar-carrito-${producto.id}" class="ver"> + CARRITO</button>
+                
+                <button id="enviar-carrito-${producto.id}" class="ver"> QUITAR </button>
             </div>
         </div>        
     </div>
