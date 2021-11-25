@@ -28,7 +28,7 @@ class ProductosCarrito{
                     <div class="col-md-6 col-xl-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
-                                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
+                                <a class="mt-3" href=""><img src=" ${producto.img} " style="max-width: 100%;" alt=""></a>
                             </div>
                                 <hr>
                             <div id="producto" class="text-center">
