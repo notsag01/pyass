@@ -131,8 +131,8 @@ class ProductosCarrito{
                         <div class"col-6">
                             <p> ${producto.nombre} DE ${producto.cat2} </p>
                         </div>    
+                        <p> ${producto.precio} </p>
                         <div class"col-6">
-                            <p> ${producto.precio} </p>
                         </div>    
                     </div>
                 </div>          
