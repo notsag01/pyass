@@ -1,13 +1,16 @@
 const URL_GET_PRODUCTOS = `productos.json`
 
 const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
+console.log(carrito)
 
 
 class ProductosCarrito{
-    constructor(id, nombre, precio){
+    constructor(id, nombre, precio, imagen, cat2){
         this.id=id
         this.nombre=nombre
         this.precio=precio
+        this.imagen=imagen
+        this.cat2=cat2
     }
 }
 
@@ -28,7 +31,7 @@ class ProductosCarrito{
                     <div class="col-md-6 col-xl-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
-                                <a class="mt-3" href=""><img src=" ${producto.img} " style="max-width: 100%;" alt=""></a>
+                                <img class="mt-3" src="${producto.imagen} " width="250" heigth="250"" alt="">                                
                             </div>
                                 <hr>
                             <div id="producto" class="text-center">
@@ -49,7 +52,7 @@ class ProductosCarrito{
                 )
                 $(`#enviar-carrito-${producto.id}`).click(()=>{
                     //console.log(producto.nombre)
-                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
+                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio, producto.imagen, producto.cat2)
                     //console.log(itemCarrito)
                     addItemCarrito(itemCarrito)
                 } 
@@ -77,7 +80,7 @@ class ProductosCarrito{
                     <div class="col-md-6 col-xl-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
-                                <img class="mt-3" src="${producto.img} " width="250" heigth="250"" alt="">
+                                <img class="mt-3" src="${producto.imagen} " width="250" heigth="250"" alt="">
                             </div>
                                 <hr>
                             <div id="producto" class="text-center">
@@ -98,7 +101,7 @@ class ProductosCarrito{
                 )
                 $(`#enviar-carrito-${producto.id}`).click(()=>{
                     //console.log(producto.nombre)
-                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio)
+                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio, producto.cat2)
                     //console.log(itemCarrito)
                     addItemCarrito(itemCarrito)
                 } 
@@ -126,7 +129,7 @@ class ProductosCarrito{
                 <div class="container">
                 <div class"row">
                         <div class"col-6">
-                            <p> ${producto.nombre} </p>
+                            <p> ${producto.nombre} DE ${producto.cat2} </p>
                         </div>    
                         <div class"col-6">
                             <p> ${producto.precio} </p>
@@ -179,12 +182,14 @@ const renderResultado=(producto)=>{
     console.log(producto)
 }
 
+
+/*  --------------------------   RENDER EN EL PÁGINA CARRITO   ---------------------------------------------- */
 for (const producto of carrito){
 $("#contenedor-productos-carrito").append(
         `<div class="col-md-6 col-xl-4 columnas">
         <div class="contTarj">
             <div class="d-flex justify-content-center">
-                <a class="mt-3" href=""><img src="./assets/img/pulseras/acero/pulsera acero bolitas 210x210.jpg " style="max-width: 100%;" alt=""></a>
+                <img class="mt-3" src="${producto.imagen} " width="250" heigth="250"" alt="">                
             </div>
                 <hr>
             <div id="producto" class="text-center">
@@ -197,13 +202,25 @@ $("#contenedor-productos-carrito").append(
             </div>
             <div class=" botones">
                 
-                <button id="enviar-carrito-${producto.id}" class="ver"> QUITAR </button>
+                <button id="elimnar-carrito-${producto.id}" class="ver"> QUITAR </button>
             </div>
         </div>        
     </div>
 </div>`
         )
+        $(`#elimnar-carrito-${producto.id}`).click(()=>{
+            //console.log(producto)            
+            const indice= carrito.indexOf(producto)
+            console.log(indice)
+            carrito.splice(indice,1)
+
+            localStorage.setItem(`carrito`,JSON.stringify(carrito))                    
+            console.log(carrito)
+
+            rendCarrito()
+        })    
     }
+
 
 
 
