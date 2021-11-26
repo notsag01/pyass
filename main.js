@@ -179,6 +179,9 @@ const renderResultado=(producto)=>{
 
 
 /*  --------------------------   RENDER EN EL PÁGINA CARRITO   ---------------------------------------------- */
+$("#contenedor-productos-carrito").append(
+    rendCarrito()
+)
 for (const producto of carrito){
 $("#contenedor-productos-carrito").append(
         `<div class="col-md-6 col-xl-4 columnas">
