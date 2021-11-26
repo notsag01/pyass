@@ -218,6 +218,7 @@ $("#contenedor-productos-carrito").append(
             console.log(carrito)
 
             rendCarrito()
+            location.reload()
         })    
     }
 
