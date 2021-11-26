@@ -101,7 +101,7 @@ class ProductosCarrito{
                 )
                 $(`#enviar-carrito-${producto.id}`).click(()=>{
                     //console.log(producto.nombre)
-                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio, producto.cat2)
+                    const itemCarrito= new ProductosCarrito(producto.id, producto.nombre, producto.precio, producto.imagen, producto.cat2)
                     //console.log(itemCarrito)
                     addItemCarrito(itemCarrito)
                 } 
@@ -125,17 +125,12 @@ class ProductosCarrito{
         $("#productos-del-carrito").empty()
         for(const producto of carrito){
             $("#productos-del-carrito").append(
-                `                                            
-                <div class="container">
-                <div class"row">
-                        <div class"col-6">
-                            <p> ${producto.nombre} DE ${producto.cat2} </p>
-                        </div>    
-                        <p> ${producto.precio} </p>
-                        <div class"col-6">
-                        </div>    
-                    </div>
-                </div>          
+                `                                                                                                                                
+                <img class="mt-3" src="${producto.imagen} " width="50" heigth="50"" alt="">
+                <span id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</span>
+                <span> id: ${producto.id} </span>
+                <span id="spam-precio">$${producto.precio}</span>
+                <div> TOTAL: </div>                                                                                                                                                                                                                                                                               
                 `
             )
         }
