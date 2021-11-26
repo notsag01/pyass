@@ -148,6 +148,9 @@ section{
 .contTarj img{
     border-radius: 50%;
     box-shadow: gray 1px 1px 5px 0px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     
 }
 .contTarj hr{

@@ -77,7 +77,7 @@ class ProductosCarrito{
                     <div class="col-md-6 col-xl-4 columnas">
                         <div class="contTarj">
                             <div class="d-flex justify-content-center">
-                                <a class="mt-3" href=""><img src="${producto.img} " style="max-width: 100%;" alt=""></a>
+                                <img class="mt-3" src="${producto.img} " width="250" heigth="250"" alt="">
                             </div>
                                 <hr>
                             <div id="producto" class="text-center">
