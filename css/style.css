@@ -71,6 +71,11 @@ a.contacto{
     display: inline;
 }
 
+.totaliza-carrito{
+    margin-top: 3rem;
+    margin-left: 50%;
+    font-weight: bold;
+}
 
 /* SECCION NAV */
 @media only screen and (max-width:768px){
