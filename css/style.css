@@ -71,6 +71,11 @@ a.contacto{
     display: inline;
 }
 
+#total-de-la-compra{
+    margin-top: 3rem;
+    margin-left:;
+    font-weight: bold;
+}
 
 /* SECCION NAV */
 @media only screen and (max-width:768px){
