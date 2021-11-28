@@ -1,9 +1,14 @@
 const URL_GET_PRODUCTOS = `productos.json`
 
 const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
-console.log(carrito)
+//console.log(carrito)
 
-const totalCompra=0;
+let totalCompra=0;
+
+for (const producto of carrito){
+    totalCompra += producto.precio
+}
+//console.log(totalCompra)
 
 
 
@@ -23,7 +28,7 @@ class ProductosCarrito{
             throw new Error("ERROR!")
         }
         const pagPrincipal= respuesta.filter(element=>element.paginaPrincipal==="true" && element.cat2 === "PLATA" )
-        console.log(pagPrincipal)
+        //console.log(pagPrincipal)
     
             
             for(const producto of pagPrincipal){
@@ -133,11 +138,17 @@ class ProductosCarrito{
                 <span id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</span>
                 <span> id: ${producto.id} </span>
                 <span id="spam-precio">$${producto.precio}</span>
-                <div class="totaliza-carrito"> TOTAL:${totalCompra} </div>                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                             
                 `
             )
         }
         }
+
+        $("#total-de-la-compra").append(
+            `<h3>TOTAL $${totalCompra} </h3>
+            `
+        )
+    
         
 $(".nav-link").css({"font-weight": "bolder"}
 )
