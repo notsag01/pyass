@@ -73,8 +73,11 @@ a.contacto{
 
 #total-de-la-compra{
     margin-top: 3rem;
-    margin-left:;
     font-weight: bold;
+}
+
+#total-de-la-compra h3{
+    overflow: hidden;
 }
 
 /* SECCION NAV */
