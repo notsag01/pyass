@@ -69,6 +69,7 @@ a.contacto{
 }
 .imagen-carrito-preview{
     display: inline;
+    border-radius: 50%;
 }
 
 #total-de-la-compra{
