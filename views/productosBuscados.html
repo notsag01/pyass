@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/9a8524dee5.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>PYAS- PAGINA PRINCIPAL</title>
+    <title>Document</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="container-fluid g-0">
+     <!-- HEADER -->
+     <header class="container-fluid g-0">
         <div class="row g-0">
             <div class="alc col-md-8 d-none d-md-block ">
                 <i class=" fab fa-whatsapp">ATENCIÓN AL CLIENTE <span class="tel">15-5555-5555</span>. Lun. a Vier. de 10 a 17h. <span>Hasta 6 cuotas sin interes</span></i>
@@ -38,13 +39,13 @@
                 </div>
             </div>
             <div class="col d-flex justify-content-center align-items-center">    
-                <a href=""><img class="logo" src="./assets/img/logo/logoII.png" alt="logo"></a>                
+                <a href=""><img class="logo" src="../assets/img/logo/logoII.png" alt="logo"></a>                
             </div>
             <div class="col d-none d-md-flex align-items-center justify-content-end"> 
                 <form id="busca-productos" >
                     <input id="buscar" autocomplete="off" class="form-control my-4 d-none d-md-block" type="search" placeholder="BUSCAR" aria-label="Search">
                 </form>
-                <a type="submit" href="./views/productosBuscados.html"> <i class="lupa fas fa-search"></i></a>
+                <a type="submit" href="./productosBuscados.html"> <i class="lupa fas fa-search"></i></a>
                 <div id="mi-carrito" class="carrito">                                    
                     <a href="javascript: void(0)" class="cerrar-btn" id="cerrar-nav">&times;</a>
                     <div class="container" id="productos-del-carrito"></div>
@@ -81,16 +82,12 @@
                 </ul>           
             </div>
             <div class="col-md-8 m-3">
-                    <h1 id="h1-titulos">-- PROMOCIONES --</h1>
-                    <h3 id="h1-titulos">-- PLATA --</h3>
-                <div id="contenedor-productos-plata" class="row marRow"></div>
-
-                <hr id="separa-contenedores">
-
-                <h3 id="h1-titulos">-- ACERO --</h3>
-                    <div id="contenedor-productos-acero" class="row marRow"></div>
-                
-                </div>
+                    <h1 id="h1-titulos">-- RESULTADO DE LA BUSQUEDA --</h1>
+                    <div>
+                        <div class="row marRow">
+                            <div id="contenedor-productos-buscados" ></div>
+                        </div>    
+                    </div>    
             </div>
              
             
@@ -173,21 +170,15 @@
                 </ul>
             </div> 
         </div>  
-    </footer>   
-   
-           
+    </footer> 
+
     
-   
 
 
-
-
-
-<!-- SCRIPS -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
-<script type="module" src="main.js"></script>
-<script type="module" src="carrito.js"></script>
+<script type="module" src="../main.js"></script>
+<script type="module" src="../carrito.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
 </body>
