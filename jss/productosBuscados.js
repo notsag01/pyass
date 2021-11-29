@@ -1,4 +1,4 @@
-import { itemsBuscados } from "../main.js";
+import { itemsBuscados, carrito } from "../main.js";
 
 console.log(itemsBuscados)
 

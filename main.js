@@ -3,7 +3,7 @@ const URL_GET_PRODUCTOS = `productos.json`
 const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
 //console.log(carrito)
 
-const itemsBuscados=JSON.parse(localStorage.getItem(`copiaResultado`))
+const itemsBuscados=JSON.parse(sessionStorage.getItem(`copiaResultado`))
 
 let totalCompra=0;
 
@@ -194,7 +194,7 @@ const renderResultado=(resultado)=>{
     console.log(resultado)
 
     const copiaResultado=[...resultado]
-    localStorage.setItem(`copiaResultado`, JSON.stringify(copiaResultado))
+    sessionStorage.setItem(`copiaResultado`, JSON.stringify(copiaResultado))
 
     
 
