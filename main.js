@@ -189,15 +189,12 @@ const buscar=(elemento)=>{
     })
 }
 
-
+/* CAPTURO EL RESULTADO, LO COPIO Y LO GAURDO PARA LLEVARMELO AL SCRIPT PRODUCTOSBUSCADOS.JS */
 const renderResultado=(resultado)=>{
-    console.log(resultado)
+    //console.log(resultado)
 
     const copiaResultado=[...resultado]
     sessionStorage.setItem(`copiaResultado`, JSON.stringify(copiaResultado))
-
-    
-
 }
 
 
