@@ -3,6 +3,8 @@ const URL_GET_PRODUCTOS = `productos.json`
 const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
 //console.log(carrito)
 
+const itemsBuscados=JSON.parse(localStorage.getItem(`copiaResultado`))
+
 let totalCompra=0;
 
 for (const producto of carrito){
@@ -182,7 +184,7 @@ const buscar=(elemento)=>{
         const resultado=productos.filter(producto=>
             producto.nombre.includes(elemento)  )
             console.log(resultado)
-            renderResultado()
+            renderResultado(resultado)
 
     })
 }
@@ -190,32 +192,15 @@ const buscar=(elemento)=>{
 
 const renderResultado=(resultado)=>{
     console.log(resultado)
-    for (const producto of itemsBuscados){
-        $("#contenedor-productos-acero").append(
-            `
-                <div class="col-md-6 col-xl-4 columnas">
-                    <div class="contTarj">
-                        <div class="d-flex justify-content-center">
-                            <img class="mt-3" src="${producto.imagen} " width="250" heigth="250"" alt="">
-                        </div>
-                            <hr>
-                        <div id="producto" class="text-center">
-                            <div class="descripcion">
-                                <h4 id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</h4>
-                                <p> id: ${producto.id} </p>
-                            </div>
-                        <div>
-                            <span id="spam-precio">$${producto.precio}</span>
-                        </div>
-                        <div class=" botones">
-                            <a href=""><button class="comprar">COMPRAR</button></a>
-                            <button id="enviar-carrito-${producto.id}" class="ver"> + CARRITO</button>
-                        </div>
-                    </div>        
-                </div>
-            </div>  `                
-            )}
+
+    const copiaResultado=[...resultado]
+    localStorage.setItem(`copiaResultado`, JSON.stringify(copiaResultado))
+
+    
+
 }
+
+
 
 
 /*  --------------------------   RENDER EN EL PÁGINA CARRITO   ---------------------------------------------- */
@@ -263,9 +248,7 @@ $("#contenedor-productos-carrito").append(
 
 
 
-export{    
-    carrito, ProductosCarrito,
-}
+export{carrito, ProductosCarrito, itemsBuscados}
 
 
 
