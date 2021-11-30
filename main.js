@@ -136,7 +136,7 @@ class ProductosCarrito{
         for(const producto of carrito){
             $("#productos-del-carrito").append(
                 `                                                                                                                                
-                <img class="mt-3" src="${producto.imagen} " width="50" heigth="50"" alt="">
+                <img class="mt-3 imagen-carrito-preview" src="${producto.imagen} " width="50" heigth="50"" alt="">
                 <span id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</span>
                 <span> id: ${producto.id} </span>
                 <span id="spam-precio">$${producto.precio}</span>
