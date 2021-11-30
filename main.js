@@ -3,6 +3,8 @@ const URL_GET_PRODUCTOS = `productos.json`
 const carrito = JSON.parse(localStorage.getItem(`carrito`)) || []
 //console.log(carrito)
 
+const itemsBuscados=JSON.parse(sessionStorage.getItem(`copiaResultado`))
+
 let totalCompra=0;
 
 for (const producto of carrito){
@@ -77,7 +79,7 @@ class ProductosCarrito{
             throw new Error("ERROR!")
         }
         const pagPrincipal= respuesta.filter(element=>element.paginaPrincipal==="true" && element.cat2 === "ACERO" )
-        console.log(pagPrincipal)
+        //console.log(pagPrincipal)
     
             
             for(const producto of pagPrincipal){
@@ -180,16 +182,25 @@ const buscar=(elemento)=>{
         
 
         const resultado=productos.filter(producto=>
-            producto.nombre.includes(elemento)  )            
+            producto.nombre.includes(elemento)  )
+            console.log(resultado)
+            renderResultado(resultado)      
 
-        renderResultado(resultado)
-
+            let url="./views/productosBuscados.html"
+            window.location=url
     })
+    
+}
 
+/* CAPTURO EL RESULTADO, LO COPIO Y LO GAURDO PARA LLEVARMELO AL SCRIPT PRODUCTOSBUSCADOS.JS */
+const renderResultado=(resultado)=>{
+    //console.log(resultado)
+
+    const copiaResultado=[...resultado]
+    sessionStorage.setItem(`copiaResultado`, JSON.stringify(copiaResultado))
 }
-const renderResultado=(producto)=>{
-    console.log(producto)
-}
+
+
 
 
 /*  --------------------------   RENDER EN EL PÁGINA CARRITO   ---------------------------------------------- */
@@ -237,9 +248,7 @@ $("#contenedor-productos-carrito").append(
 
 
 
-export{    
-    carrito, ProductosCarrito,
-}
+export{carrito, ProductosCarrito, itemsBuscados}
 
 
 
