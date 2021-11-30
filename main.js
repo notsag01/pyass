@@ -184,9 +184,12 @@ const buscar=(elemento)=>{
         const resultado=productos.filter(producto=>
             producto.nombre.includes(elemento)  )
             console.log(resultado)
-            renderResultado(resultado)
+            renderResultado(resultado)      
 
+            let url="./views/productosBuscados.html"
+            window.location=url
     })
+    
 }
 
 /* CAPTURO EL RESULTADO, LO COPIO Y LO GAURDO PARA LLEVARMELO AL SCRIPT PRODUCTOSBUSCADOS.JS */
