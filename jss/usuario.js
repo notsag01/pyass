@@ -26,10 +26,21 @@ $("#nuevo-usuario").submit((e)=>{
     const nuevoUsusario= new Ususario(nombre, apellido, email)
     console.log(nuevoUsusario)
     addUsuario(nuevoUsusario)
+
+    if(nombre===""|| apellido==="" || email===""){
+        alert("Todos los campos deben ser completados")
+    }else{
+
+        alert(`bienvenido ${nombre}`)
+    }
+    let url="../index.html"
+    window.location=url
+
 })
 
 const addUsuario = (usuario)=>{
     usuarios.push(usuario)
     localStorage.setItem("usuarios",JSON.stringify(usuarios))
+
 }
 
