@@ -69,11 +69,16 @@ a.contacto{
 }
 .imagen-carrito-preview{
     display: inline;
+    border-radius: 50%;
 }
 
 #total-de-la-compra{
+    padding: .5rem;
     margin-top: 3rem;
     font-weight: bold;
+}
+#total-de-la-compra h3{
+    overflow: hidden;
 }
 
 #total-de-la-compra h3{
