@@ -242,10 +242,11 @@ $("#contenedor-productos-carrito").append(
     $("#contenedor-total").append(
         `
         <div class="container">    
-            <div>
-                <div col-md-9  class="text-center">
-                    <h3 d-inline-block> El total de tu compras es $${totalCompra}</h3>                    
-                </div>                
+            <div class="row">
+            <div class="col-md-3"></div>
+            <div class="total-compra col-md-9 text-end">
+                <h3 class="total-compra" d-inline-block> El total de tu compras es $${totalCompra}</h3>                    
+            </div>                
             </div> 
         `
     )

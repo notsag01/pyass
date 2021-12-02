@@ -77,16 +77,12 @@ a.contacto{
     margin-top: 3rem;
     font-weight: bold;
 }
-#total-de-la-compra h3{
-    overflow: hidden;
-}
-
-#total-de-la-compra h3{
-    overflow: hidden;
-}
 
 .nombre-producto-carrito{
     font-size: 5rem;
+}
+#boton-confirmacion h3{
+    overflow: hidden;
 }
 .boton-de-confirmacion{
     background-color: #f8dfe3;
@@ -97,6 +93,9 @@ a.contacto{
     margin: 1rem;
     padding: .5rem;
     font-weight: bolder;
+}
+.total-compra{
+    height: 3rem;
 }
 
 /* SECCION NAV */
