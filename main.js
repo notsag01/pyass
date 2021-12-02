@@ -187,7 +187,7 @@ const buscar=(elemento)=>{
             console.log(resultado)
             renderResultado(resultado)      
 
-            let url="./views/productosBuscados.html"
+            let url="./productosBuscados.html"
             window.location=url
     })
     
