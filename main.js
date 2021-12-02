@@ -249,6 +249,21 @@ $("#contenedor-productos-carrito").append(
             </div> 
         `
     )
+    $("#boton-confirmacion").append(
+        `
+        <div class="row">
+            <div class="col-6">                        
+            
+            </div>    
+            <div class="col-6">                        
+                <a href="#"><button class="boton-de-confirmacion"> CONFIRMAR TU PEDIDO </button></a>
+            </div>    
+            
+        </div>    
+        
+        
+        `
+    )
 
 
 
