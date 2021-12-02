@@ -85,6 +85,10 @@ a.contacto{
     overflow: hidden;
 }
 
+.nombre-producto-carrito{
+    font-size: 5rem;
+}
+
 /* SECCION NAV */
 @media only screen and (max-width:768px){
 .navegador{

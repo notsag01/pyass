@@ -210,28 +210,22 @@ $("#contenedor-productos-carrito").append(
 )
 for (const producto of carrito){
 $("#contenedor-productos-carrito").append(
-        `<div class="col-md-6 col-xl-4 columnas">
-        <div class="contTarj">
-            <div class="d-flex justify-content-center">
-                <img class="mt-3" src=" .${producto.imagen} " width="250" heigth="250"" alt="">                                
-            </div>
-                <hr>
-            <div id="producto" class="text-center">
-                <div class="descripcion">
-                    <h4 id="nombre-producto" >${producto.nombre} DE ${producto.cat2}</h4>
-                    <p> id: ${producto.id} </p>
+        `<div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-6 col-xl-4 columnas">
+                    <img class="mt-3" src=" .${producto.imagen} " width="250" heigth="250"" alt="">                                
                 </div>
-            <div>
-                <span id="spam-precio">$${producto.precio}</span>
+                <div class="col-md-6">
+                    <h4 id="nombre-producto" class="nombre-producto-carrito" >${producto.nombre} DE ${producto.cat2}</h4>
+                    <p> id: ${producto.id} </p>
+                    <span id="spam-precio">$${producto.precio}</span>
+                    <button id="elimnar-carrito-${producto.id}" class="ver"> QUITAR </button>
+                </div>                    
             </div>
-            <div class=" botones">
-                
-                <button id="elimnar-carrito-${producto.id}" class="ver"> QUITAR </button>
-            </div>
-        </div>        
-    </div>
-</div>`
+        </div>
+           `
         )
+        
         $(`#elimnar-carrito-${producto.id}`).click(()=>{
             //console.log(producto)            
             const indice= carrito.indexOf(producto)
@@ -244,7 +238,17 @@ $("#contenedor-productos-carrito").append(
             rendCarrito()
             location.reload()
         })    
-    }
+    }   
+    $("#contenedor-total").append(
+        `
+        <div class="container">    
+            <div>
+                <div col-md-9  class="text-center">
+                    <h3 d-inline-block> El total de tu compras es $${totalCompra}</h3>                    
+                </div>                
+            </div> 
+        `
+    )
 
 
 
