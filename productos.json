@@ -91,7 +91,7 @@
       "stock": 10,
       "cat1": "ANILLO",
       "cat2": "PLATA",
-      "paginaPrincipal": "true",
+      "paginaPrincipal": "false",
       "oferta": "false",
       "imagen": "./assets/img/anillo/plata/anillo-plata-sello-hombre"
     },
@@ -559,7 +559,7 @@
       "stock": 1,
       "cat1": "PULSERAS",
       "cat2": "ACERO",
-      "paginaPrincipal": "true",
+      "paginaPrincipal": "false",
       "oferta": "false",
       "imagen": null
     },
@@ -572,7 +572,7 @@
       "cat1": "PULSERAS",
       "cat2": "ACERO",
       "paginaPrincipal": "true",
-      "oferta": "false",
+      "oferta": "true",
       "imagen": "./assets/img/pulseras/acero/pulsera-acero-con-dijes.jpg"
     },
     {
@@ -595,7 +595,7 @@
       "stock": 1,
       "cat1": "PULSERAS",
       "cat2": "ACERO",
-      "paginaPrincipal": "false",
+      "paginaPrincipal": "true",
       "oferta": "false",
       "imagen": "./assets/img/pulseras/acero/pulsera-acero-identificacion.jpg"
     },
