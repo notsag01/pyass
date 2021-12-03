@@ -97,6 +97,9 @@ a.contacto{
 .total-compra{
     height: 3rem;
 }
+.mensaje-final{
+    height: 3rem;
+}
 
 /* SECCION NAV */
 @media only screen and (max-width:768px){
