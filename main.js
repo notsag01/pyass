@@ -254,18 +254,16 @@ $("#contenedor-productos-carrito").append(
         `
         <div class="row">
             <div class="col-6">                        
-            
             </div>    
             <div class="col-6">                        
-                <a href="#"><button class="boton-de-confirmacion"> CONFIRMAR TU PEDIDO </button></a>
+                <button id="boton-final" class="boton-de-confirmacion"> CONFIRMAR TU PEDIDO </button>
             </div>    
-            
         </div>    
-        
-        
         `
     )
-
+        $("#boton-final").click(()=>{
+            alert("Hasta acá llegué")
+        })
 
 
 
